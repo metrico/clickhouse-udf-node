@@ -1,0 +1,16 @@
+<functions>
+    <function>
+        <type>executable</type>
+        <name>test_node</name>
+        <return_type>UInt64</return_type>
+        <argument>
+            <type>UInt64</type>
+        </argument>
+        <argument>
+            <type>UInt64</type>
+        </argument>
+        <format>TabSeparated</format>
+        <command>/tmp/node-udf-sum.js</command>
+        <lifetime>0</lifetime>
+    </function>
+</functions>
