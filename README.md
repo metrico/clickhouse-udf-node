@@ -12,13 +12,13 @@ Create a UDF Function to invoke your NodeJS script
 
 ### Use UDF
 ```
-SELECT test_node(11, 50)
+SELECT test_node(10, 20)
 
 Query id: f98a5f83-4e94-41d0-9d9f-78b37d3af152
 
-┌─test_node(11, 50)─┐
-│                61 │
+┌─test_node(10, 20)─┐
+│                30 │
 └───────────────────┘
 
-1 rows in set. Elapsed: 0.044 sec. 
+1 rows in set. Elapsed: 0.054 sec. 
 ```
