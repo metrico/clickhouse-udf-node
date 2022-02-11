@@ -10,7 +10,7 @@
             <type>UInt64</type>
         </argument>
         <format>TabSeparated</format>
-        <command>/tmp/node-udf-sum.js</command>
+        <command>node-udf-sum.js</command>
         <lifetime>0</lifetime>
     </function>
 </functions>

@@ -8,6 +8,7 @@ Create an executable NodeJS script
 
 ### ClickHouse UDF
 Create a UDF Function to invoke your NodeJS script 
+- use directory `/var/lib/clickhouse/user-scripts` to store user-scripts
 
 ### Use UDF
 ```
