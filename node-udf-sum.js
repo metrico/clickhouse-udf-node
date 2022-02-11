@@ -1,7 +1,5 @@
 #!/usr/bin/node
-
-/* Example async UDF for clickhouse */
-/* SUM two integers */
+/* Example async UDF for clickhouse, chmod +x */
 
 async function read(stream) {
    const chunks = [];
@@ -9,6 +7,7 @@ async function read(stream) {
    return Buffer.concat(chunks).toString('utf8');
 }
 
+/* SUM two integers */
 (async function() {  
    // Read full STDIN
    var input = await read(process.stdin);
