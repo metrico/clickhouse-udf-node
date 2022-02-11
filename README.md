@@ -18,7 +18,7 @@ SELECT node_sum(10, 20)
 
 Query id: f98a5f83-4e94-41d0-9d9f-78b37d3af152
 
-┌─test_node(10, 20)─┐
+┌─node_sum(10, 20)-─┐
 │                30 │
 └───────────────────┘
 
