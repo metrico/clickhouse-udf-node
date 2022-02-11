@@ -1,7 +1,7 @@
 <functions>
     <function>
         <type>executable</type>
-        <name>test_node</name>
+        <name>node_sum</name>
         <return_type>UInt64</return_type>
         <argument>
             <type>UInt64</type>

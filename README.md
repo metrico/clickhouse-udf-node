@@ -12,7 +12,7 @@ Create a UDF Function to invoke your NodeJS script
 
 ### Use UDF
 ```
-SELECT test_node(10, 20)
+SELECT node_sum(10, 20)
 
 Query id: f98a5f83-4e94-41d0-9d9f-78b37d3af152
 
