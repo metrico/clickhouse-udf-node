@@ -12,5 +12,6 @@
         <format>TabSeparated</format>
         <command>node-udf-sum.js</command>
         <lifetime>0</lifetime>
+        <execute_direct>1</execute_direct>
     </function>
 </functions>
