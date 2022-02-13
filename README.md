@@ -3,6 +3,13 @@
 # ClickHouse NodeJS UDF
 This basic example illustrates a simple `sum` NodeJS powered Clickhouse UDF function
 
+##### ⏱️ Why
+> Clickhouse is super fast and already has all the functions one could dream. What is this for?
+
+That's totally up to you. This example is designed to understand the underlying formats and unleash imagination for integrators.
+
+-----
+
 ### NodeJS Function
 Create an [executable NodeJS script](https://github.com/metrico/clickhouse-udf-node/blob/main/node-udf-sum.js)
 - read input from stdin
