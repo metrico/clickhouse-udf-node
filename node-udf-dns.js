@@ -17,6 +17,16 @@
     </function>
 </functions>
 
+SELECT test_node_json('qxip.net') AS test
+
+Query id: 97425c14-d296-4db8-8c8e-e13ed7988ec3
+
+┌─test──────────────────────────────────┐
+│ address: "172.67.yyy.xx" family: IPv4 │
+└───────────────────────────────────────┘
+
+1 rows in set. Elapsed: 0.070 sec. 
+
 */
 
 const dns = require('dns');
