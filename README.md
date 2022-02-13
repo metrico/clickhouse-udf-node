@@ -6,7 +6,7 @@ This basic example illustrates a simple `sum` NodeJS powered Clickhouse UDF func
 ##### ⏱️ Why
 > Clickhouse is super fast and already has all the functions one could dream. What is this for?
 
-That's totally up to you. This example is designed to understand the underlying formats and unleash imagination for integrators.
+This example is designed to understand the underlying formats and unleash imagination for integrators.
 
 -----
 
