@@ -8,7 +8,7 @@ This basic example illustrates a simple `sum` NodeJS powered Clickhouse UDF func
 
 This example is designed to understand the underlying formats and unleash imagination for integrators.
 
------
+<br><br>
 
 ### NodeJS Function
 Create an [executable NodeJS script](https://github.com/metrico/clickhouse-udf-node/blob/main/node-udf-sum.js)
