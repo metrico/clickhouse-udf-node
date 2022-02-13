@@ -1,15 +1,18 @@
 <img src="https://user-images.githubusercontent.com/1423657/147935343-598c7dfd-1412-4bad-9ac6-636994810443.png" width=220 >
 
 # ClickHouse NodeJS UDF
+This basic example illustrates a simple NodeJS powered Clickhouse UDF function
 
 ### NodeJS Function
-Create an executable NodeJS script
+Create an [executable NodeJS script](https://github.com/metrico/clickhouse-udf-node/blob/main/node-udf-sum.js)
 - read input from stdin
 - split row values by tabs
 - return some output
 
+> In our example we'll just accept two integers and sum them
+
 ### ClickHouse UDF
-Create a UDF Function to invoke your NodeJS script 
+Configure a [UDF Function](https://github.com/metrico/clickhouse-udf-node/blob/main/node_function.xml) to invoke your script 
 - use directory `/var/lib/clickhouse/user-scripts` to store user-scripts
 
 ### Use UDF
